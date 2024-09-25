@@ -1,0 +1,90 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+
+.left-panel, .right-panel {
+    flex: 1; /* Equal width for both panels */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.left-panel {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+}
+
+.right-panel {
+    background-color: #ffffff;
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.circle {
+    width: 300px; /* Diameter of the circle */
+    height: 300px; /* Diameter of the circle */
+    border: 5px solid #007bff; /* Circle border color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the circle horizontally */
+    background-color: #e0f7fa; /* Background color of the circle */
+}
+
+.circle h1 {
+    margin: 0;
+    color: #007bff; /* Text color */
+    font-size: 1.5em; /* Adjust font size as needed */
+    
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 600px; /* Centered content in the right panel */
+    margin: auto; /* Center the content horizontally */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, textarea, button {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
