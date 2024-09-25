@@ -1,0 +1,18 @@
+/* Basic light mode styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header, footer {
+    background-color: #f1f1f1;
+}
+
+body.dark-mode header, body.dark-mode footer {
+    background-color: #444444;
+}
