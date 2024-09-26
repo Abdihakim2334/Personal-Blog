@@ -93,6 +93,8 @@ This Challenge is graded based on the following criteria:
 * Application GitHub URL submitted.
 
 * GitHub repository contains application code.
+* DEPLOYED LINK - https://abdihakim2334.github.io/Personal-Blog/
+* 
 
 ### Application Quality: 15%
 
